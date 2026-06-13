@@ -1,4 +1,4 @@
-# Sabot-private
+# Sabot - Trading bot for Revolut X
 
 Bot for automated trading using the official Revolut X API <https://developer.revolut.com/docs/x-api/revolut-x-crypto-exchange-rest-api>, according to golden cross strategy.
 
