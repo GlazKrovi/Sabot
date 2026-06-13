@@ -1,0 +1,36 @@
+version: 2
+
+builds:
+  - id: sabot
+    main: ./cli
+    binary: sabot
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - windows
+      - darwin
+    goarch:
+      - amd64
+
+archives:
+  - ids:
+      - sabot
+    formats:
+      - tar.gz
+    format_overrides:
+      - goos: windows
+        formats:
+          - zip
+    name_template: "sabot_{{ .Os }}_{{ .Arch }}"
+
+checksum:
+  name_template: "checksums.txt"
+
+changelog:
+  sort: asc
+
+release:
+  github:
+    owner: GlazKrovi
+    name: Sabot-private

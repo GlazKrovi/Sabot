@@ -1,0 +1,6 @@
+*.exe
+*.txt
+Sabot-private
+*.json
+*.pem
+development.md
