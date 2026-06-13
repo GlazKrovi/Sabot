@@ -1,6 +1,6 @@
 # Sabot-private
 
-Private version of the Sabot project (currently the only version, kept private because it contains private keys and other test-related data). Bot for automated trading using the official Revolut X API <https://developer.revolut.com/docs/x-api/revolut-x-crypto-exchange-rest-api>
+Bot for automated trading using the official Revolut X API <https://developer.revolut.com/docs/x-api/revolut-x-crypto-exchange-rest-api>, according to golden cross strategy.
 
 ## Getting started
 
