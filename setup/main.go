@@ -55,7 +55,8 @@ func main() {
 	fmt.Printf("1. Rendez vous sur votre profile Revolut X : %s\n", exchangeURL)
 	fmt.Println("2. Cliquez sur votre photo de profil puis Clés API.")
 	fmt.Println("3. Ajoutez la clé publique ci-dessus.")
-	fmt.Println("4. Revolut vous fournira une clé d'API : collez-la ci-dessous.")
+	fmt.Println("4. Autoriser 'ordre spot' et 'allow usage via Revolut X MCP and CLI'.")
+	fmt.Println("5. Revolut vous fournira une clé d'API : collez-la ci-dessous.")
 	fmt.Print("\nClé d'API : ")
 
 	apiKey, err := reader.ReadString('\n')
