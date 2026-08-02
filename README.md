@@ -8,6 +8,8 @@ Run `go run ./setup` to help you generate the public key, private key, and API k
 
 This setup simply follows the steps defined in <https://developer.revolut.com/docs/x-api/revolut-x-crypto-exchange-rest-api>
 
+Add a small amount of money to your Revolut account directly through their interface (for example, $5 or $10).
+
 ## Run
 
 `go run ./cli ETH DOT`: checks that the keys are present (otherwise tells you to run `go run ./setup`), tests that the API key works through a dummy call to `/balances`, then starts the trading bot. This is the recommended command.
